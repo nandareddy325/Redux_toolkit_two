@@ -1,0 +1,30 @@
+.Homepage{
+    background-color: rgba(210, 190, 170, 0.9);
+}
+.Homepage .card img{
+    margin-top: 10px;
+    height: 150px;
+    transition: all .4s linear;
+}
+.Homepage .card img:hover{
+    transform: scale(1.1);
+}
+.Homepage .card{
+    box-shadow: 0px 0px 10px black;
+    transition: all .4s linear;
+}
+.Homepage .card:hover{
+    box-shadow:none;
+}
+.Homepage .card .card-body h5{
+    font-size: 17px;
+    height: 40px;
+    transition: all .4s linear;
+}
+.Homepage .card .card-body h5:hover{
+    color:orange;
+    
+}
+.Headernav{
+    background-color: rgba(210, 190, 170, 0.3);
+}
